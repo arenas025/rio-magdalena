@@ -17,13 +17,13 @@ const ProductSummary = ({ product }: ProductSummaryProps) => (
         </Item.Image>
         <Item.Content>
           <Item.Header as="h1">{product.name}</Item.Header>
-          <Item.Description>
+          {/* <Item.Description>
             <p>{product.price}</p>
             <Label>{`SKU: ${product.sku}`}</Label>
-          </Item.Description>
-          <Item.Extra>
+          </Item.Description> */}
+          {/* <Item.Extra>
             <AddToCart product={product} />
-          </Item.Extra>
+          </Item.Extra> */}
         </Item.Content>
       </Item>
     </Item.Group>

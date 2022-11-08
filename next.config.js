@@ -1,3 +1,5 @@
-export const env = {
-  TOKEN: "abc123",
+module.exports = {
+  env: {
+    TOKEN: "abc123",
+  },
 };

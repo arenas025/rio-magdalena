@@ -3,7 +3,7 @@ import Layout from '@components/Layout/Layout'
 import KawaiiHeader from '@components/KawaiiHeader/KawaiiHeader'
 import ProductList from '@components/ProductList/ProductList'
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const response = await fetch('http://localhost:3000/api/avo')
   const {data : productList} : TAPIAvoResponse = await response.json()
   return {

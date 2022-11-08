@@ -7,13 +7,13 @@ const Footer = () => (
     vertical
     as="footer"
     style={{
-      padding: '4em 0em',
-      marginTop: '3em',
+      padding: 0,
+      marginTop: 0,
       borderTop: '1px solid #f2f2f2',
     }}
   >
     <Container text>
-      <Grid stackable>
+      {/* <Grid stackable>
         <Grid.Row>
           <Grid.Column width={4}>
             <Header as="h4" content="Nosotros" />
@@ -60,8 +60,8 @@ const Footer = () => (
             </List>
           </Grid.Column>
         </Grid.Row>
-      </Grid>
-      <div className="colophon">
+      </Grid> */}
+      {/* <div className="colophon">
         <p className="colophon-entry">
           Icons made by{' '}
           <a
@@ -95,14 +95,15 @@ const Footer = () => (
             California Avocado
           </a>
         </p>
-      </div>
+      </div> */}
     </Container>
 
     <style jsx>{`
       .colophon {
         text-align: center;
-        margin-top: 3.2rem;
+        margin: 0;
         font-size: 0.8rem;
+        padding:0;
       }
       .colophon-entry {
         color: grey;

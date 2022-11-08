@@ -15,16 +15,16 @@ const AnimatedHeader = ({
   onComplete,
 }: AnimatedHeaderProps) => (
   <Header size="huge" as="h1" onClick={onClick}>
-    Platzi
+    Historía
     <Transition
       animation="jiggle"
       visible={visible}
       duration={900}
       onComplete={onComplete}
     >
-      <Avocado size="58px" />
+      <img style={{margin:' 0 20px'}} src='https://svgsilh.com/svg/1314955.svg'/>
     </Transition>
-    Avo
+    Rio Magdalena
   </Header>
 )
 

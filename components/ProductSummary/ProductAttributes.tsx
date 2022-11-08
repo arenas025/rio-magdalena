@@ -6,11 +6,11 @@ const ProductAttributes = ({
   ...otherAttributes
 }: TProductAttributes) => (
   <section className="container">
-    <Header as="h3">About this avocado</Header>
+    <Header as="h3">Descripcion</Header>
     <p>{description}</p>
 
     <Divider />
-
+{/* 
     <Table celled>
       <Table.Header>
         <Table.Row>
@@ -28,7 +28,7 @@ const ProductAttributes = ({
           </Table.Row>
         ))}
       </Table.Body>
-    </Table>
+    </Table> */}
 
     <style jsx>{`
       .container :global(.attr-name) {

@@ -19,23 +19,23 @@ const Navbar = () => {
             active={pathname === '/'}
             title="Inicio | Todos los productos"
           >
-            <Avocado />
-            Avo Store
+            {/* <Avocado /> */}
+            Historia del río Magdalena
           </Menu.Item>
         </Link>
-        <Menu.Menu position="right">
+        {/* <Menu.Menu position="right">
           <Link href="/cart" passHref>
             <Menu.Item active={pathname === '/cart'}>
               <ShoppingCartIcon cartCount={cartCount} name="Canasta" />
             </Menu.Item>
           </Link>
-        </Menu.Menu>
+        </Menu.Menu> */}
       </Container>
-      <style jsx global>{`
+      {/* <style jsx global>{`
         .ui.menu.huge {
           font-size: 1.5rem;
         }
-      `}</style>
+      `}</style> */}
     </Menu>
   )
 }

@@ -1,6 +1,6 @@
 const data: Record<TProductId, TProduct> = {
   '2zd33b8c': {
-    name: 'Maluma Hass Avocado',
+    name: 'Information 1',
     id: '2zd33b8c',
     sku: 'NUR72KCM',
     price: 1.15,
@@ -14,7 +14,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   '6trfgkkj': {
-    name: 'Fuerte Avocado',
+    name: 'Information 2',
     id: '6trfgkkj',
     sku: 'AX4M8SJV',
     price: 1.21,
@@ -28,7 +28,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   '7bcr49em': {
-    name: 'Gwen Hass Avocado',
+    name: 'Information 3',
     id: '7bcr49em',
     sku: 'HYA78F6J',
     price: 1.25,
@@ -42,7 +42,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   '098323ks': {
-    name: 'Bacon Avocado',
+    name: 'Information 4',
     id: '098323ks',
     sku: 'BXD100BLK',
     price: 1.51,
@@ -56,7 +56,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   b8uthe2y: {
-    name: 'Hass Avocado',
+    name: 'Information 5',
     id: 'b8uthe2y',
     sku: 'RMRCZN7E',
     price: 1.39,
@@ -70,7 +70,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   ewxsd6xb: {
-    name: 'Lamb Hass Avocado',
+    name: 'Information 6',
     id: 'ewxsd6xb',
     sku: 'N55229ZA',
     price: 1.34,
@@ -84,7 +84,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   fpr72m9k: {
-    name: 'Pinkerton Avocado',
+    name: 'Information 8',
     id: 'fpr72m9k',
     sku: 'B4HZ42TM',
     price: 1.27,
@@ -98,7 +98,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   t9dv25gs: {
-    name: 'Reed Avocado',
+    name: 'ReedInformation 9',
     id: 't9dv25gs',
     sku: 'ZY3T9XXC',
     price: 1.18,
@@ -112,7 +112,7 @@ const data: Record<TProductId, TProduct> = {
     },
   },
   t345w48y: {
-    name: 'Zutano Avocado',
+    name: 'Information 10',
     id: 't345w48y',
     sku: 'MW79ZZ6Y',
     price: 1.25,
