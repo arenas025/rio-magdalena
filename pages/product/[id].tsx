@@ -7,7 +7,7 @@ import { GetStaticProps } from 'next'
 
 //el getStaticPath se debe usar cuando una pagina es dinamica, esto retorna la lista de paginas que se van a generar, es decir los posibles id's que se podrian visitar
 export const getStaticPaths = async() => {
-  const response = await fetch('http://localhost:3000/api/avo/')
+  const response = await fetch('https://platzi-avo.vercel.app/api/avo')
   const {data:productList}:TAPIAvoResponse = await response.json()
   const paths = productList.map(({id})=>({
     params:{
@@ -23,7 +23,7 @@ export const getStaticPaths = async() => {
 //para capturar el id se usa lo que se llama params, esto es deconstruido desde una propiedad que se llama context que viene en los parametros del getStaticProps
 export const getStaticProps:GetStaticProps = async ({params}) => {
   const id = params?.id as string //en esta parte se pone params.id porque asi se llama la ruta dinamica, si se llamara number entonces se pone params.number
-  const response = await fetch(`http://localhost:3000/api/avo/${id}`)
+  const response = await fetch(`https://platzi-avo.vercel.app/api/avo/${id}`)
 const product: TProduct = await response.json()
   return {
     props:{
